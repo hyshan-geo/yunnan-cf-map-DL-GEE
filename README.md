@@ -6,3 +6,6 @@ Coffee, as a perennial commodity crops, plays an important role in global agricu
 
 "mdl_pars.pth" is the parameter of the DNN model with the highest accuracy. "coffee-map-DL-GEE.ipynb" is the code file used for training and predicting models.
 
+Due to file upload restrictions, the training data is divided into two files: 'train_data_0.xlsx' and 'train_data_1.xlsx'. 'test_data.xlsx 'is the test data
+Suffixes 0 to 4 in the column names containing Sentinel-2 bands represent the band values of the median composite image for March, April to October, November, December to January, and February, respectively. 
+The 0 and 1 of 'class_2typ' represent coffee and non coffee, respectively
